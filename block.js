@@ -14,7 +14,7 @@ class Block{
       }
       display(){
       
-        if (this.body.speed>3){
+        if (this.body.speed>4){
           World.remove(world,this.body);
           push();
           this.visibility-=5;
